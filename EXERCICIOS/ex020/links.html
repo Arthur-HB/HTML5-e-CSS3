@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+            text-decoration: none;
+        }
+        a:active{
+            color: rgb(255, 255, 255);
+        }
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(121, 121, 121);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/Arthur-HB" target="_blank" rel="external">Repositorio do github</a></li>
+        <li><a href="https://www.instagram.com/arthurhb13?igsh=MTRwMXBza2VxZWtidA==" target="_blank" rel="external">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/arthur-augusto-hencke-berti" target="_blank" rel="external">Linkedin</a></li>
+    </ul>
+    
+</body>
+</html>
